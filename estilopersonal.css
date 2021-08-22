@@ -39,7 +39,8 @@ p {
 nav{    
     background-color: rgba(233, 187, 255, 0.548);
     padding: 5px;   
-    font-family: 'Lobster', cursive; 
+    font-family:  'Roboto' ;
+    font-weight: bold; 
 }
 
 ul{   

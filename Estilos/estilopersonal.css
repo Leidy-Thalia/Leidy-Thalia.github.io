@@ -24,10 +24,10 @@ p {
     background: radial-gradient(circle, rgba(255,255,255,1) 45%, rgba(215,240,255,1) 100%);
     text-align: center;  
     margin:  0%;
-    padding: 3% 6%;  
+    padding: 0% 0%;  
     text-align: justify;  
     font-family: 'Archivo Narrow', sans-serif;  
-    border-style: none none none double;
+    border-style: double none double double;
     border-color: rgb(30, 3, 34);
 }   
 
@@ -56,9 +56,7 @@ table {
 
 h3{
     font-family: 'Allison', cursive;
-    font-size: 50px ; 
-    border-style: none none double none ;
-    border-color: rgb(30, 3, 34);
+    font-size: 50px ;     
     color:rgb(30, 3, 34);
     margin-bottom: 0%;
 }

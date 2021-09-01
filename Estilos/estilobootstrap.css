@@ -1,0 +1,110 @@
+h1{    
+    font-family:  'Roboto';   
+    padding: 20px;
+    margin: 0%;
+    font-size: 600px;   
+    color: rgb(255, 255, 255); 
+}
+
+a {    
+    font-family: 'Archivo Narrow', sans-serif;     
+}
+
+nav ul li{
+    display: inline-block;
+    align-content: space-around;
+    color: rgb(24, 2, 27)
+}
+
+
+section{
+align-items: center;
+padding:1% 15% 0% 15%;
+background-color: rgba(173, 218, 255, 0.747);
+}
+nav ul{
+    display: inline; 
+    
+}
+
+body{
+    background-color:rgba(173, 218, 255, 0.747);
+    
+}
+
+h2{
+    font-family: 'Allison', cursive;
+    color:rgb(39, 4, 44) !important;
+    padding-top: 1%;
+    text-align-last: center;
+    font-size:500% !important;
+    }
+
+.social {
+	position: fixed; 
+    left: 0; 
+	top: 200px; 
+	z-index: 2000; 
+}
+
+
+	.social ul {
+		list-style: none;
+	}
+
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; 
+	}
+
+	.social ul li .icon-facebook {background:#3b5998;} 
+	.social ul li .icon-instagram {background: #ffa44e;}	
+	.social ul li .icon-mail {background: #666666;}
+
+	.social ul li a:hover {
+		background: #000; 
+		padding: 10px 30px; 
+	}
+
+.parrafo {
+    background: radial-gradient(circle, rgba(255,255,255,1) 45%, rgba(215,240,255,1) 100%);    
+    padding: 3% 5%;  
+    text-align: justify;     
+    border-color: rgb(30, 3, 34);  
+}   
+
+p{
+    font-family: 'Archivo Narrow', sans-serif; 
+    text-align: center;  
+    margin: 0%;    
+}
+
+.juntos{
+    display: flex;    
+}
+
+.foot{
+    width: 100% !important;  
+    height: 560px !important;          
+}
+table {
+    border-collapse: collapse;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: rgb(30, 3, 34);
+  }
+  td,tr{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even){background-color: #4fb3b3}
+
+
+

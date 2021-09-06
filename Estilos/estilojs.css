@@ -1,0 +1,103 @@
+body{
+    background: #a7e5f8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{   
+    text-align:left;
+    margin: 0% 0% 2% 4%;
+    display: flex;
+    
+}
+.div2{
+    margin: 6% 4% 2% 8%;
+
+}
+
+.tamTab{
+    width: 60%;    
+}
+
+tr , th{
+    padding: 10px;  
+    font-size: 20px;
+    font-weight: normal;
+} 
+th{
+    width: 210px;
+    margin: 0px 10px 0px 0px;
+}
+
+
+table{
+    width: 45%;
+}
+
+.thColum1{
+    background: #1468b8;
+    color: rgb(255, 255, 255);
+    border-color: #1468b8;
+}  
+
+
+.thColum3{
+    background: #a51616;
+    color: rgb(255, 255, 255);
+    border-color: #b63524;
+
+}    
+
+.thColum2{   
+    color: rgba(122, 108, 108, 0.322);
+    background: rgb(255, 255, 255);
+    border: 1px solid #be4324;
+    
+}    
+    
+button{
+    margin: 2%;
+    width: 250px;
+    font-size: 30px;
+}
+
+h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+section{
+    text-align: justify;
+    border-style: dotted;
+    padding: 5px;
+    background: #ffffff;
+    font-size: 18px;
+}
+
+.boton1{
+    
+    background: rgb(245, 170, 84);
+    border-color: #ffffff;
+}
+
+.boton2{
+    
+    background: rgb(170, 47, 47);
+    border-color: #000000;
+}
+
+button{
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    border-width: 2px;
+    height: 38px;
+    width: 200px;
+    align-content: initial;
+}
+
+.marg2{
+
+    margin: 0% 0% 0% 3%;
+}
+

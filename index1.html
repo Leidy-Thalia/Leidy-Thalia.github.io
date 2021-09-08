@@ -6,9 +6,10 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="Estilos/estilojs.css">
+        <link rel="stylesheet" href="Estilos/lab05.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>
     </head>
+
     <body>
         <header>
             <h4>LABORATORIO 05: TALLER DE JAVASCRIPT</h4>
@@ -16,52 +17,53 @@
         <div>
             <table class="tamTab">                
                 <tr> 
-                    <th class="thColum1">Apellidos y nombres: </th>
-                    <th class="thColum2">Ingreso apellidos y nombres</th>
+                    <th class="thColum1" id= "APEnom">Apellidos y nombres: </th>
+                    <th class="thColum2"> <input type="text" placeholder="Ingreso apellidos y nombres"   id="IAPEnom"> </input>
+                    </th>
+                
                 </tr>      
                 
                 <tr>
-                    <th class="thColum1" >Fecha de nacimiento: </th>
-                    <th class="thColum2" >Ingreso fecha de nacimiento</th>
+                    <th class="thColum1" id="FECnac" >Fecha de nacimiento: </th>
+                    <th class="thColum2"><input type="text" placeholder="Mes - Día - Año" id="IFECnac" > </input>
+                    </th>
                 </tr>
             </table>
             
             <div>
-                <button  class="boton1">Extraer</button>
-                <button  class="boton2">Colorear</button>
-             
+                <button type="button"  class="boton1" id="extraer" > Extraer</button>
+                <button type="button"  class="boton2" id="colorear"> Colorear</button>             
             </div>
-         
         </div> 
        
         <div class="div2">
             <table>
                 <tr>
-                    <th class="thColum1">Apellido paterno:</th>
-                    <th class="thColum2"> </th>
+                    <th class="thColum1" id="APEpat" >Apellido paterno:</th>
+                    <th class="thColum2"><input type="text" value=" "  id="IAPEpat"> </input> </th>
                 </tr>
                 <tr>
-                    <th class="thColum1">Apellido materno:</th>
-                    <th class="thColum2"> </th>
+                    <th class="thColum1" id="APEmat">Apellido materno:</th>
+                    <th class="thColum2"> <input type="text" value=" "  id="IAPEmat"> </input> </th>
                 </tr>
                 <tr>
-                    <th class="thColum1">Nombres: </th>
-                    <th class="thColum2"> </th>
+                    <th class="thColum1" id="NOM" >Nombres: </th>
+                    <th class="thColum2" > <input type="text" value=" " id="INOM"> </input> </th>
                 </tr>
             </table>
 
             <table class="marg2">
                 <tr>
-                    <th class="thColum3">Longitud de apellido: </th>
-                    <th class="thColum2"> </th>
+                    <th class="thColum3" id="LONape">Longitud de apellido: </th>
+                    <th class="thColum2"> <input type="text" value=" "  id="ILONape"> </input> </th>
                 </tr>
                 <tr>
-                    <th class="thColum3">Edad: </th>
-                    <th class="thColum2"> </th>
+                    <th class="thColum3" id="EDA">Edad: </th>
+                    <th class="thColum2"> <input type="text" value=" "  id="IEDA"> </input> </th>
                 </tr>
                 <tr>
-                    <th class="thColum3">Mes en letras:  </th>
-                    <th class="thColum2">  </th>
+                    <th class="thColum3" id="MES">Mes en letras:  </th>
+                    <th class="thColum2" > <input type="text" value=" "  id="IMES">  </input> </th>
                 </tr>
             </table>
         </div>
@@ -71,6 +73,6 @@
             letras. Calcular la longitude del apellido y la edad. <br>
             Cuando se presione en "Colorear", cambiar el color azul a rojo y viceversa.
         </section>
-        <script src="" async defer></script>
+        <script src="lab05.js" async defer></script>
     </body>
 </html>

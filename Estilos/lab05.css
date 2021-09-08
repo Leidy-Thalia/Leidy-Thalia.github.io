@@ -6,12 +6,11 @@ body{
 div{   
     text-align:left;
     margin: 0% 0% 2% 4%;
-    display: flex;
-    
+    display: flex;    
 }
+
 .div2{
     margin: 6% 4% 2% 8%;
-
 }
 
 .tamTab{
@@ -19,15 +18,16 @@ div{
 }
 
 tr , th{
-    padding: 10px;  
-    font-size: 20px;
+    padding-left: 10px;  
+    font-size: 17px;
     font-weight: normal;
+    height: 40px;
 } 
+
 th{
     width: 210px;
-    margin: 0px 10px 0px 0px;
+    height: 40px;
 }
-
 
 table{
     width: 45%;
@@ -39,19 +39,17 @@ table{
     border-color: #1468b8;
 }  
 
-
 .thColum3{
     background: #a51616;
     color: rgb(255, 255, 255);
     border-color: #b63524;
-
 }    
 
 .thColum2{   
-    color: rgba(122, 108, 108, 0.322);
+    color: rgb(0, 0, 0);
     background: rgb(255, 255, 255);
-    border: 1px solid #be4324;
-    
+    border: 1px solid #be4324; 
+    margin: 0%;
 }    
     
 button{
@@ -101,3 +99,9 @@ button{
     margin: 0% 0% 0% 3%;
 }
 
+input{
+      width: 90%;
+      height: 90%;
+      border-color: #ffffff;
+      border-style: none;
+}
